@@ -1,10 +1,14 @@
 package initial;
 
-public class Naming {
+import org.junit.Test;
 
-    public static void main(String[] args) {
+public class NamingTest {
 
-        //We can start naming java class with {'$', '_', [vocal]}
+    /*
+     *  We can start naming java class with {'$', '_', [vocal]}
+     */
+    @Test
+    public void waysToNamingVariable(){
 
         String $variableMoney = "S/.";
         String _variableGuion = "_ variable";
@@ -17,4 +21,5 @@ public class Naming {
         System.out.println(print + variableCommon);
 
     }
+
 }

@@ -1,11 +1,15 @@
 package initial;
 
-public class Datatypes {
+import org.junit.Test;
 
-    public static void main(String[] args) {
+public class DatatypesTest {
+
+
+    @Test
+    public void maxValuesOfDatatypes(){
 
         byte byteMaxLong3 = 127;                      //-128 hasta 127.
-        short shortMaxLong5 = 12345;                         // -32,768 hasta 32,727
+        short shortMaxLong5 = 12345;                  // -32,768 hasta 32,727
         int intMaxLong10 = 1234567890;                // -2,147,483,648 hasta 2,147,483,647
         long longMaxLong19 = 1234567890123456789L;    // -9,223,372,036,854,775,808 hasta 9,223,372,036,854,775,807
 
@@ -32,11 +36,9 @@ public class Datatypes {
         System.out.println("valor minimo tipo long:" + Long.MIN_VALUE);
         System.out.println("valor maximo tipo long:" + Long.MAX_VALUE);
 
-
         // From Java JDK 10
         //var montoInt = 123;
         //var montoDouble = montoInt*0.18;
-
 
     }
 }

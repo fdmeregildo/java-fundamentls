@@ -35,7 +35,7 @@ public class OperatorsTests {
      * deberia ser uno del tipo Double
      */
     @Test
-    public void testDevisionDecimalShouldReturnDecimal(){
+    public void testDivisionDecimalShouldReturnDecimal(){
         Double valor = 5./2;
         assertEquals("2.5", valor.toString());
 
